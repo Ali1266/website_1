@@ -1,0 +1,234 @@
+@media (max-width: 1109px) {
+    .prefecture-block-1:last-of-type {
+        flex-direction: column-reverse;
+    }
+
+    .prefecture-block-1:first-of-type {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prefecture-text {
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .nav-list {
+        column-gap: 50px;
+    }
+}
+
+@media (max-width: 830px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    nav.open .nav-button {
+        display: block;
+        position: fixed;
+        z-index: 9;
+        top: 45px;
+        right: 30px;
+    }
+
+    nav.open .nav-list {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fff;
+        color: #000;
+        padding: 45px 30px;
+        row-gap: 40px;
+        z-index: 1;
+    }
+
+    .nav-link {
+        color: #828282;
+        font-size: 42px;
+        font-weight: 700;
+        transition: all .3s;
+    }
+
+    .nav-link:hover {
+        color: #000;
+    }
+}
+
+@media (max-width: 946px) {
+    .benefits-block {
+        margin-top: -120px;
+    }
+
+    .get-card-title {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 780px) {
+    .get-card-title {
+        font-size: 30px;
+        bottom: 15px;
+        left: 17px;
+    }
+}
+
+@media (max-width: 630px) {
+    .footer-info {
+        column-gap: 104px;
+    }
+}
+
+@media (max-width: 589px) {
+    .benefits-block {
+        margin-top: -50px;
+    }
+
+    .search-button {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .header-main {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 580px) {
+    .get-card-title {
+        font-size: 20px;
+        bottom: 12px;
+        left: 14px;
+    }
+
+    .get-cards-big, .get-cards-small {
+        column-gap: 5px;
+    }
+
+    .get-cards {
+        row-gap: 5px;
+    }
+}
+
+@media (max-width: 475px) {
+    .nav-link {
+        font-size: 32px;
+    }
+
+    .get-cards {
+        row-gap: 20px;
+    }
+
+    .get-cards-big, .get-cards-small {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .get-card-title {
+        font-size: 30px;
+        bottom: 27px;
+        left: 29px;
+    }
+}
+
+@media (max-width: 461px) {
+    .header-heading {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .content-1 {
+        line-height: 1.3;
+    }
+}
+
+@media (max-width: 381px) {
+    .content-1 {
+        font-size: 14px;
+    }
+
+    .get-title {
+        font-size: 28px;
+    }
+
+    .benefits-header {
+        font-size: 28px;
+        margin-bottom: 80px;
+    }
+
+    .footer-info-1 ul {
+        font-size: 16px;
+    }
+
+    .footer-content {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .card-title,
+    .likes,
+    .comments {
+        font-size: 14px;
+    }
+
+    .likes-card {
+        padding: 15px 20px;
+    }
+
+    .search::placeholder {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 298px) {
+    .search {
+        background: 0;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 326px) {
+    .prefecture-title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .header-heading {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 40px;
+    }
+
+    .prefecture-text,
+    .learn-more {
+        font-size: 14px;
+    }
+
+    .get-card-title {
+        font-size: 26px;
+        bottom: 17px;
+        left: 19px;
+    }
+
+    .places-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 306px) {
+    .benefits-content {
+        min-width: 100px;
+    }
+}
